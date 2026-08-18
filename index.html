@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گالری شاهکارهای نقاشی</title>
+    <style>
+        body { font-family: Tahoma, sans-serif; background-color: #121212; color: #fff; margin: 0; padding: 20px; text-align: center; }
+        h1 { color: #f39c12; margin-bottom: 30px; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; max-width: 1200px; margin: 0 auto; }
+        .card { background: #1e1e1e; border-radius: 12px; overflow: hidden; border: 1px solid #333; transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); }
+        .card img { width: 100%; height: 250px; object-fit: cover; }
+        .card-content { padding: 15px; text-align: right; }
+        .card-content h3 { margin: 0 0 10px 0; color: #f39c12; }
+        .card-content p { font-size: 0.9em; color: #ccc; line-height: 1.6; }
+    </style>
+</head>
+<body>
+    <h1>🎨 گالری شاهکارهای نقاشی جهان</h1>
+    <div class="gallery">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=600" alt="شب پرستاره">
+            <div class="card-content">
+                <h3>شب پرستاره (The Starry Night)</h3>
+                <p><strong>اثری از:</strong> وینسنت ون گوگ (۱۸۸۹)</p>
+                <p>این شاهکار سبک پسادریافتگری، نمای منظرهٔ پنجرهٔ اتاق ون گوگ در آسایشگاه روانی سن-رمی-دو-پرومانس را به تصویر می‌کشد.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600" alt="هنر کلاسیک">
+            <div class="card-content">
+                <h3>بانویی با قاقم (Lady with an Ermine)</h3>
+                <p><strong>اثری از:</strong> لئوناردو دا وینچی (۱۴۸۹)</p>
+                <p>یکی از مهم‌ترین پرتره‌های رنسانس که چچیلیا گالرانی را همراه با یک قاقم سفید به تصویر کشیده است.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
